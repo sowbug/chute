@@ -1,0 +1,13 @@
+{
+   "content_scripts": [ {
+      "css": [ "chute.css" ],
+      "js": [ "chute.js" ],
+      "matches": [ "http://*/*" ]
+   } ],
+   "description": "Occasionally interrupts your work with a parachute jump.",
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC4A8zudRvNLtzsGQAnRWVoxEhQTkv/YzzKojXvS+n+88/oFDI+3TQWaqrs6RXgYrN/TxQ7X4R1wFYydH8aUyb/3+QK0Jku6MdBfV0eQ5uYWRFXcIp8++ZaUzfeXJQ079qLqZLfS8QJ/Vo8e2lxOUksf5JbYxistA/gCq+rvMt/HQIDAQAB",
+   "manifest_version": 2,
+   "name": "Chute",
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "1.0"
+}
